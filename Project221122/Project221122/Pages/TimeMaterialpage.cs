@@ -139,8 +139,8 @@ namespace Project221122.Pages
         public string GetEditedPrice(IWebDriver driver)
         {
             IWebElement ActualPrice = driver.FindElement(By.XPath("//*[@id='tmsGrid']/div[3]/table/tbody/tr[last()]/td[4]"));
-            string temp = ActualPrice.Text;
-            Console.WriteLine(temp);
+         
+            
             return ActualPrice.Text;
 
         }
